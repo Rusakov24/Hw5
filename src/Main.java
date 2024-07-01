@@ -88,7 +88,7 @@ public class Main {
                     season = "осень";
                     break;
                 default:
-                    season = "неизвестный сезон";
+                    season = "Неизвестный сезон";
                     break;
             }
             System.out.println(monthNumber + "-й месяц принадлежит к сезону " + season + ".");
