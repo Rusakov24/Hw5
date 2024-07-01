@@ -1,6 +1,6 @@
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Задание 1");
+        System.out.println("Задание 1.");
         int clientOS = 0;
         if (clientOS == 0) {
             System.out.println("Установите версию приложения для iOS по ссылке");
@@ -10,7 +10,7 @@ public class Main {
             System.out.println("Неизвестная операционная система");
         }
 
-        System.out.println("Задание 2");
+        System.out.println("Задание 2.");
         clientOS = 1;
         int clientDeviceYear = 2015;
 
@@ -30,7 +30,7 @@ public class Main {
         } else {
             System.out.println("Неизвестная операционная система");
         }
-        System.out.println("Задание 3");
+        System.out.println("Задание 3.");
         int year = 2021;
 
         if (year > 1584) {
@@ -43,7 +43,7 @@ public class Main {
             System.out.println("Год должен быть больше 1584");
         }
 
-        System.out.println("Задание 4");
+        System.out.println("Задание 4.");
         int deliveryDistance = 95;
         int deliveryDays;
         if (deliveryDistance <= 20) {
